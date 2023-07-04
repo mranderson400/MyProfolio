@@ -1,10 +1,10 @@
-import React from "react";
+
 import { BrowserRouter } from "react-router-dom";
 import '../src/index.css';
 import {About, Contact, Experience, Feedbacks,
-    Hero, Tech, Works, NavAll, StarsCanvas} from './components';
+    Hero, Tech, Works, NavAll} from './components';
 
-const StarsCanvasMemo = React.memo(StarsCanvas);
+// const StarsCanvasMemo = React.memo(StarsCanvas);
 
 const App = () => {
   return (
@@ -27,7 +27,7 @@ const App = () => {
         <Feedbacks />
         <div className="relative z-0">
            <Contact />
-          <StarsCanvasMemo /> 
+          {/* <StarsCanvasMemo />  */}
         </div>
       </div>
     </BrowserRouter>
