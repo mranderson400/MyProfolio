@@ -17,13 +17,13 @@ const App = () => {
      
         >
         <NavAll/>
-          {/* <Hero /> */}
+          <Hero />
         </div>
         {/* <ComputersCanvas/> */}
-         {/* <About />  */}
-         {/* <Experience /> */}
-        {/* <Tech /> */}
-         {/* <Works />  */}
+         <About /> 
+         <Experience />
+        <Tech />
+         <Works /> 
         <Feedbacks />
         <div className="relative z-0">
            <Contact />
