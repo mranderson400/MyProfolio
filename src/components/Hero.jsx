@@ -50,7 +50,7 @@ const Hero = () => {
       </div>
       {/* <br />
       <br /> */}
-      {/* <ComputersCanvas /> */}
+      <ComputersCanvas />
       <br/>
       <br/>
 
