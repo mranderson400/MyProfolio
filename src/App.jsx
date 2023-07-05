@@ -16,7 +16,7 @@ const App = () => {
           bg-repeat bg-center "
      
         >
-        <NavAll/>
+        {/* <NavAll/> */}
           {/* <Hero /> */}
         </div>
         {/* <ComputersCanvas/> */}
