@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-parallax-tilt";
+import ParallaxTilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -10,7 +10,7 @@ import germany from "../assets/germany.jpg";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
-    <Tilt className="xs:w-[250px] w-full">
+    <ParallaxTilt className="xs:w-[250px] w-full">
       <motion.div
         variants={fadeIn("right", "spring", 0.1 * index, 0.5)}
         className="w-full green-pink-gradient p-[8px] rounded-[20px] shadow-card"
@@ -23,7 +23,7 @@ const ServiceCard = ({ index, title, icon }) => {
           <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
         </div>
       </motion.div>
-    </Tilt>
+    </ParallaxTilt>
   );
 };
 
