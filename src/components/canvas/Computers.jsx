@@ -24,7 +24,7 @@ const Computers = ({isMobile}) => {
         shadow-mapSize={1024}
       />
       <primitive object={computer.scene}
-        scale={ isMobile ? 0.1 : 0.60}
+        scale={ isMobile ? 0.1 : 0.45}
 
         position={ isMobile ? 
           [0, -3, -2.2] :
