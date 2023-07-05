@@ -2,7 +2,7 @@
 import { BrowserRouter } from "react-router-dom";
 import '../src/index.css';
 import {About, Contact, Experience, Feedbacks,
-    Hero, Tech, Works, NavAll} from './components';
+    Hero, Tech, Works, NavAll, ComputersCanvas} from './components';
 
 // const StarsCanvasMemo = React.memo(StarsCanvas);
 
@@ -17,9 +17,9 @@ const App = () => {
      
         >
         <NavAll/>
-          <Hero />
+          {/* <Hero /> */}
         </div>
-        
+        <ComputersCanvas/>
         <About />
         {/* <Experience />
         <Tech /> */}
