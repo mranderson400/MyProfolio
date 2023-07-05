@@ -4,7 +4,7 @@ import '../src/index.css';
 import {About, Contact, Experience, Feedbacks,
     Hero, Tech, Works, NavAll} from './components';
 
-// const StarsCanvasMemo = React.memo(StarsCanvas);
+const StarsCanvasMemo = React.memo(StarsCanvas);
 
 const App = () => {
   return (
@@ -26,8 +26,8 @@ const App = () => {
         <Works />
         <Feedbacks /> */}
         <div className="relative z-0">
-           <Contact />
-          {/* <StarsCanvasMemo />  */}
+           {/* <Contact /> */}
+          <StarsCanvasMemo /> 
         </div>
       </div>
     </BrowserRouter>
