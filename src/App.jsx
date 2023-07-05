@@ -16,17 +16,17 @@ const App = () => {
           bg-repeat bg-center "
      
         >
-        {/* <NavAll/> */}
+        <NavAll/>
           {/* <Hero /> */}
         </div>
-        {/* <ComputersCanvas/> */}
-        {/* <About /> */}
-        {/* <Experience /> */}
-        <Tech />
-        {/* <Works /> */}
+        <ComputersCanvas/>
+         <About /> 
+         <Experience />
+        {/* <Tech /> */}
+         <Works /> 
         {/* <Feedbacks /> */}
         <div className="relative z-0">
-           {/* <Contact /> */}
+           <Contact />
           {/* <StarsCanvasMemo />  */}
         </div>
       </div>
