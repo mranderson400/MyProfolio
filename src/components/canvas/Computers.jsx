@@ -10,7 +10,7 @@ const Computers = ({ isMobile }) => {
   // 2) Import the scene.gltf as you would any other file
 
   return (
-    <mesh>
+    <mesh position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}>
       <hemisphereLight intensity={0.15} groundColor="black" />
       <pointLight intensity={1} />
       <spotLight
