@@ -73,7 +73,7 @@ useEffect(() => {
      frameloop="demand"
      shadows
       gl={{ preserveDrawingBuffer: true }}
-      camera={{ position: [20, 3, 5], fov: 25 }}>
+      camera={{ position: [25, 9, 9], fov: 20 }}>
       <Suspense fallback={<CanvasLoader />}>
       {/* the suspense is using the canvasloader as a fallback while computer is loading, once it
        loads computer 3d loads and the fallback goes away */}
