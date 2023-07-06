@@ -9,7 +9,7 @@ const Computers = ({ isMobile }) => {
   // 1) Download the model and use the folder name as reference
   // 2) Import the scene.gltf file as you would any other file
 
-  const scaleValue = isMobile ? 0.8 : 1.5; // Adjust the scale value as needed
+  const scaleValue = isMobile ? 0.7 : 0.7; // Adjust the scale value as needed
 
   return (
     <mesh>
