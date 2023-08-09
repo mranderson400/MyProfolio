@@ -1,4 +1,4 @@
-import { Tilt } from "react-tilt";
+import ParallaxTilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -19,7 +19,7 @@ const ProjectCard = ({
     //spring up is the type of anamtion we want
     //the index * 0.5 etc will make the projects come in one by one.. i believe
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 2)}>
-      <Tilt
+      <ParallaxTilt
         options={{
           max: 45,
           speed: 450,
@@ -77,7 +77,7 @@ const ProjectCard = ({
   ))
 }
         </div>
-      </Tilt>
+      </ParallaxTilt>
     </motion.div>
   );
 };

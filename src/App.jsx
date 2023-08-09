@@ -1,8 +1,8 @@
-import React from "react";
+
 import { BrowserRouter } from "react-router-dom";
 import '../src/index.css';
 import {About, Contact, Experience, Feedbacks,
-    Hero, Tech, Works, NavAll, StarsCanvas} from './components';
+    Hero, Tech, Works, NavAll, ComputersCanvas} from './components';
 
 // const StarsCanvasMemo = React.memo(StarsCanvas);
 
@@ -19,11 +19,11 @@ const App = () => {
         <NavAll/>
           <Hero />
         </div>
-        
-        <About />
-        <Experience />
+        {/* <ComputersCanvas/> */}
+         <About /> 
+         <Experience />
         <Tech />
-        <Works />
+         <Works /> 
         <Feedbacks />
         <div className="relative z-0">
            <Contact />
