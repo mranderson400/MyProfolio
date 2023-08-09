@@ -36,9 +36,9 @@ const Contact = () => {
       'template_z7jkhpq',
       {
         from_name: form.name,
-        to_name: 'Zak',
+        to_name: 'Robert',
         from_email: form.email,
-        to_email: 'zaksinark@gmail.com',
+        to_email: 'mr_andersonr97@yahoo.com',
         message: form.message,
       },
       '-ds5WS7-Da6wkdIls'
@@ -84,7 +84,7 @@ const Contact = () => {
               className="text-white
               font-medium mb-4"
             >
-              Name
+              You're Name
             </span>
             <input
               type="text"
@@ -102,7 +102,7 @@ const Contact = () => {
               className="text-white
               font-medium mb-4"
             >
-              Email
+              You're Email
             </span>
             <input
               type="email"
@@ -120,7 +120,7 @@ const Contact = () => {
               className="text-white
               font-medium mb-4"
             >
-              Message
+              You're Message
             </span>
             <textarea
               rows="7"

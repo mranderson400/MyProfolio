@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Sicily from "../assets/Sicily.jpg";
+import Sicily from "../assets/Sicily.png";
 import Typed from "react-typed";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
@@ -9,17 +9,17 @@ const Hero = () => {
     <section className="relative w-full h-screen mx-auto">
       <div
         className={`${styles.paddingX} absolute inset-0
-        top-[120px] max-w-7xl mx-auto 
-        flex flex-row items-start gap-5 `}
+     top-[120px] max-w-7xl mx-auto 
+     flex flex-row items-start gap-5 `}
       >
         <div
           className="flex flex-col
-          justify-center items-center mt-5"
+       justify-center items-center mt-5"
         >
           <div className="w-5 h-5 rounded-full bg-blue-800" />
           <div
             className="w-1 h-40 sm:h-80
-            bg-gradient-to-b from-blue-900 to-transparent via-blue-400"
+         bg-gradient-to-b from-blue-900 to-transparent via-blue-400"
           />
         </div>
 
@@ -29,7 +29,7 @@ const Hero = () => {
             <p style={{ fontFamily: 'Consolas, monospace', letterSpacing: '5px' }}>SOFTWARE ENGINEER</p>
             <Typed
               strings={[
-                "I'm Zak, Welcome to my Portfolio! I develop 3D visuals, Web Applications, UI &nbsp;Mobile Applications",
+                "Hi, I'm Robert, Welcome to my Portfolio! I develop 3D visuals, Web, UI &nbsp;Mobile Applications",
                 "Import {Knowledge} from '../Everything';  <span>&#x1F60E;</span>",
               ]}
               typeSpeed={50}
@@ -57,8 +57,8 @@ const Hero = () => {
       {/* here we have a anchor tag with our motion scroll css */}
       <div
         className="absolute xs:bottom-10
-        bottom-32 w-full flex justify-center
-        items-center"
+       bottom-32 w-full flex justify-center
+       items-center"
       >
         <a href="#about">
           <div
