@@ -87,7 +87,7 @@ useEffect(() => {
           <div
             className={`${!toggle ? "hidden" : "flex"} 
             p-6 bg-gradient-to-b from-black-100 to-black-200 absolute top-20
-             right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl `}
+            right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl `}
           >
             <ul className="list-none flex justify-end items-start flex-col gap-4">
               {navLinks.map((nav) => (

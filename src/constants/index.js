@@ -3,7 +3,7 @@ import color from "../assets/color.png";
 import pat from "../assets/pat.png"
 import matt from "../assets/matt.png"
 import patS from "../assets/patS.png"
-import Sicily from "../assets/Sicily.png"
+import Sicily from "../assets/Sicily.jpg"
 
 import {
   mobile,
@@ -172,7 +172,7 @@ const experiences = [
     company_name: "Coding Dojo",
     icon: web,
     iconBg: "#E6DEDD",
-    date: "Oct 2022 - Feb 2023",
+    date: "November 2022 - March 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -189,7 +189,7 @@ const personal = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Zak proved me wrong.",
     name: "Patrick Bennet",
     designation: "Team Lead",
     company: "IBM/SynergySoftLabs",
@@ -197,7 +197,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Zak does.",
     name: "Matt Yee",
     designation: "CEO",
     company: "Oracle/SynergySoftLabs",
@@ -205,7 +205,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Zak optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Patrick Sohn",
     designation: "Team Lead",
     company: "IBM/SynergySoftLabs",

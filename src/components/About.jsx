@@ -49,11 +49,10 @@ const About = () => {
             variants={fadeIn("", "", 0.1, 9.5)}
             className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
           >
-            Hey guys! I'm a graduate of Coding Dojo's Fullstack Developer Bootcamp. I have a proud background of serving
-            in the U.S. Army and wanted to show other vets it's possible to find a new purpose for life after leaving
-            the service. I enjoy learning new technologies and working on unique projects. I mainly use React, JSX,
-            typescript, and tailwind CSS for the majority of my projects. I have a strong foundation in Python and C#
-            as well. If you have any questions or ideas, please, feel free to contact me!
+            I'm a graduate of Coding Dojo's Fullstack Developer Bootcamp. I came from a career in the medical field to
+            software engineering. I enjoy learning new technologies and working on unique projects. I mainly use React,
+            JSX, typescript, and tailwind CSS for the majority of my projects. I have a strong foundation in Python and
+            Java as well. If you have any questions or ideas, please, feel free to contact me!
           </motion.p>
         </div>
       </div>
