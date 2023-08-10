@@ -4,6 +4,10 @@ import pat from "../assets/pat.png"
 import matt from "../assets/matt.png"
 import patS from "../assets/patS.png"
 import Sicily from "../assets/Sicily.png"
+import fire from "../assets/fire.jpg"
+import whatsapp from "../assets/whatsapp.png"
+import classic from "../assets/classic.png"
+// import classicc from "../assets/classicc.jpg"
 
 import {
   mobile,
@@ -225,14 +229,14 @@ const projects = [
       },
       {
         name: "Firebase",
-        color: "green-text-gradient",
+        color: "pink-text-gradient",
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
     ],
-    image: web,
+    image: fire,
     source_code_link: "",
   },
   {
@@ -253,7 +257,7 @@ const projects = [
       //   color: "pink-text-gradient",
       // },
     ],
-    image: color,
+    image: whatsapp,
     source_code_link: "https://github.com/",
   },
   {
@@ -271,7 +275,7 @@ const projects = [
       },
       
     ],
-    image: csharp,
+    image: classic,
     source_code_link: "https://github.com/",
   },
 ];
