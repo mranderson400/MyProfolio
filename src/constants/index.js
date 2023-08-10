@@ -217,7 +217,7 @@ const projects = [
   {
     name: "Search & Rescue",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An advanced mobile application engineered to streamline search and rescue missions, leveraging real-time geolocation analytics and facilitating optimal coordination among emergency response teams.",
     tags: [
       {
         name: "react-native",
@@ -233,12 +233,12 @@ const projects = [
       },
     ],
     image: web,
-    source_code_link: "https://youtube.com/",
+    source_code_link: "",
   },
   {
-    name: "Client",
+    name: "Whatsapp",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A sophisticated replication of the renowned WhatsApp platform, meticulously crafted with React Native, epitomizing robust real-time communication protocols, a user-centric interface, and efficient media transmission capabilities.",
     tags: [
       {
         name: "react",
@@ -257,9 +257,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Starbucks",
+    name: "Classic Noire",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A digital platform for iconic noir films, featuring tools for effortless movie additions and a robust system for users to track their order history, enhancing both administrative and user experiences",
     tags: [
       {
         name: "C#",
