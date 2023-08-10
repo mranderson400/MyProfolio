@@ -98,7 +98,7 @@ const Works = () => {
           max-w-3xl
           leading-[30px]"
         >
-          I developed a React Native mobile app enhancing search and rescue operations, 
+          Here I developed React Native mobile app enhancing search and rescue operations, 
           replicated WhatsApp focusing on its core functionalities, 
           and built a C# platform for purchasing classic movies.
           These projects highlight my commitment to combining innovative
