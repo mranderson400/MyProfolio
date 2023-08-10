@@ -130,15 +130,15 @@ const technologies = [
 const experiences = [
   {
     title: "C# Developer",
-    company_name: "Starbucks",
+    company_name: "",
     icon: csharp,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Febuary - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implementing modular and reusable components with C# libraries, ensuring flexibility and maintainability across projects.",
+      "Adopting responsive design and ensuring cross-browser compatibility.",
+      "Leveraging the latest features of C# for enhanced performance, while troubleshooting and resolving software defects in existing systems.",
     ],
   },
   {
@@ -146,9 +146,9 @@ const experiences = [
     company_name: "SynergySoftLabs",
     icon: javascript,
     iconBg: "#E6DEDD",
-    date: "March 2022 - Present",
+    date: "March 2022 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web/mobile applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -156,15 +156,15 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
+    company_name: "",
     icon: backend,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2022 -  Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designing user-friendly interfaces with React.js, emphasizing optimal user experience and interactivity.",
+      "Liaising with design and product teams to ensure accurate translation of UI/UX designs into functional web components.",
+      "Optimizing web applications for mobile devices with responsive techniques and rigorous testing.",
+      "Advocating for code quality and maintainability through structured code reviews and best practice discussions.",
     ],
   },
   {
@@ -174,10 +174,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Oct 2022 - Feb 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Building end-to-end solutions with a focus on integrating multiple frontend frameworks like React.js with backend technologies.",
+      "Designing and modeling databases, ensuring efficient data retrieval and robust system performance.",
+      "Coordinating with various internal teams to enhance application functionality and introduce innovative features.",
+      "Leading debugging sessions, addressing and resolving production issues, and promoting system reliability."
     ],
   },
 ];
