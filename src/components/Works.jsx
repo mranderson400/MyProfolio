@@ -98,11 +98,12 @@ const Works = () => {
           max-w-3xl
           leading-[30px]"
         >
-          LUUUUUU ZZZZ ES UNA BONITAAA Y MI NOVIAAAA ES VRDD This is just some
-          text to show offer and maybe we will just do that to show the next guy
-          whos boss i am boss yes me me me you all show some respect to me you
-          jedi master because i can end you all i am the chosen one fear me fear
-          me
+          I developed a React Native mobile app enhancing search and rescue operations, 
+          replicated WhatsApp focusing on its core functionalities, 
+          and built a C# platform for purchasing classic movies.
+          These projects highlight my commitment to combining innovative
+            technology with user-centric design, emphasizing my technical
+            proficiency and understanding of user needs.
         </motion.p>
         <div className="mt-20 flex flex-wrap gap-7">
           {projects.map((project, index) => (
