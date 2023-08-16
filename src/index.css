@@ -34,3 +34,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.filter-red {
+    filter: brightness(0) saturate(100%) invert(14%) sepia(97%) saturate(2875%) hue-rotate(345deg) brightness(101%) contrast(104%);
+}

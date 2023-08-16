@@ -84,14 +84,14 @@ const Contact = () => {
               className="text-white
               font-medium mb-4"
             >
-              You're Name
+              Your Name
             </span>
             <input
               type="text"
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="What's you're good name?"
+              placeholder="What's your good name?"
               className="bg-tertiary py-4 px-6
             placeholder:text-secondary text-white rounded-lg 
               outline-none border-none font-medium"
@@ -102,14 +102,14 @@ const Contact = () => {
               className="text-white
               font-medium mb-4"
             >
-              You're Email
+              Your Email
             </span>
             <input
               type="email"
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="What's you're email?"
+              placeholder="What's your email?"
               className="bg-tertiary py-4 px-6
             placeholder:text-secondary text-white rounded-lg 
               outline-none border-none font-medium"
@@ -120,7 +120,7 @@ const Contact = () => {
               className="text-white
               font-medium mb-4"
             >
-              You're Message
+              Your Message
             </span>
             <textarea
               rows="7"

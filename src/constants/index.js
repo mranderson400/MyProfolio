@@ -7,6 +7,7 @@ import Sicily from "../assets/Sicily.png"
 import fire from "../assets/fire.jpg"
 import whatsapp from "../assets/whatsapp.png"
 import classic from "../assets/classic.png"
+import oracle from "../assets/oracle.jpg"
 // import classicc from "../assets/classicc.jpg"
 
 import {
@@ -193,7 +194,7 @@ const personal = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Robert's creative approach, combined with his exemplary leadership skills, clearly demonstrates his readiness to address even the most complex challenges.",
     name: "Patrick Bennet",
     designation: "Team Lead",
     company: "IBM/SynergySoftLabs",
@@ -201,15 +202,16 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "During production challenges, Robert consistently emerged as a leader, driving forward with inventive solutions that ensured smooth operations.",
     name: "Matt Yee",
-    designation: "CEO",
+    designation: "Sr Engineer",
     company: "Oracle/SynergySoftLabs",
-    image: matt,
+    company2: "Matt.yee@oracle.com",
+    image: oracle,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "Having Robert on the team transformed our work into an engaging and enjoyable experience.",
     name: "Patrick Sohn",
     designation: "Team Lead",
     company: "IBM/SynergySoftLabs",
@@ -221,7 +223,7 @@ const projects = [
   {
     name: "Search & Rescue",
     description:
-      "An advanced mobile application engineered to streamline search and rescue missions, leveraging real-time geolocation analytics and facilitating optimal coordination among emergency response teams.",
+      "An advanced non-profit mobile application engineered to streamline search and rescue missions for Florida, leveraging real-time geolocation analytics and facilitating optimal coordination among emergency response teams.",
     tags: [
       {
         name: "react-native",

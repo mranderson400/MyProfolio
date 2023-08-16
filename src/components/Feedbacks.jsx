@@ -10,6 +10,7 @@ const FeedbackCard = ({
   name,
   designation,
   company,
+  company2,
   image,
 }) => (
   <motion.div
@@ -45,6 +46,11 @@ xs:w-[320px] w-full"
         <p className="mt-1 text-secondary text-[12px]">
           {designation} of {company}
         </p>
+        {company2 && (
+          <p className="mt-1 text-secondary text-[12px]">
+            {company2}
+          </p>
+        )}
       </div>
       <img 
         src={image}

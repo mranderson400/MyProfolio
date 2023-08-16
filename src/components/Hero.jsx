@@ -49,6 +49,8 @@ const Hero = () => {
         </div>
       </div>
       <br/>
+      <br/>
+      <br/>
       <ComputersCanvas />
       <br/>
       <br/>

@@ -27,7 +27,6 @@ export default {
       backgroundBlendMode: { // Add this for blend
         'blend': 'multiply',
       },
-      
     },
   },
   plugins: [
