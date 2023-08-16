@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import {  menu, close } from "../assets/";
+import mylogo from '../assets/mylogo.png'
 
 const NavAll = () => {
   const [active, setActive] = useState('');
@@ -48,11 +49,11 @@ useEffect(() => {
             //  window will bring you to top of page, test this
           }}
         >
-          <img className="max-w-10 max-h-10" 
-          src={logo} alt="logo" />
+          <img className="w-10 h-9 rounded-full " 
+          src={mylogo} alt="mylogo" />
           <p className="text-white text-[18px]
            font-bold cursor-pointer flex">
-            Robert &nbsp;
+            Robert Anderson &nbsp;
             <span className="sm:block hidden ">| JS/C# Mastery</span>
           </p>
         </Link>
