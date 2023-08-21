@@ -38,3 +38,25 @@
 .filter-red {
     filter: brightness(0) saturate(100%) invert(14%) sepia(97%) saturate(2875%) hue-rotate(345deg) brightness(101%) contrast(104%);
 }
+
+
+
+/* Add these lines for the image zoom effect */
+
+
+/* The container holding the image; used for hiding the overflow and positioning */
+.img-container {
+  position: relative; /* Set to relative so we can absolutely position children if needed */
+  overflow: hidden;  /* Hide any child content that spills outside the container's bounds */
+}
+
+/* Style targeting the actual image inside the .img-container */
+.img-container img {
+  transition: transform .3s ease-in-out; /* Add a smooth transition effect for the 'transform' property over 0.3s */
+}
+
+/* Style targeting the image when the container is hovered */
+.img-container:hover img {
+  transform: scale(2.5); /* Scale the image up to 2.5 times its original size */
+}
+

@@ -49,11 +49,10 @@ const Hero = () => {
         </div>
       </div>
       <br/>
+      <div className="mt-16"></div>
       <br/>
-      <br/>
-      <ComputersCanvas />
-      <br/>
-      <br/>
+      <ComputersCanvas  />
+      
 
 
       {/* here we have a anchor tag with our motion scroll css */}

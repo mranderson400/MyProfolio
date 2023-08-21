@@ -2,39 +2,37 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import {  menu, close } from "../assets/";
-import mylogo from '../assets/mylogo.png'
+import { menu, close } from "../assets/";
+import mylogo from "../assets/mylogo.png";
 
 const NavAll = () => {
-  const [active, setActive] = useState('');
+  const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-useEffect(() => {
-  const handleScroll = () => {
-    const scrollTop = window.scrollY;
-    if (scrollTop > 100) {
-      setScrolled(true);
-    } else {
-      setScrolled(false);
-    }
-  };
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      if (scrollTop > 100) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
 
-  window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
-  return () => window.removeEventListener("scroll", handleScroll);
-}, []);
-
-
-
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <nav
-    className={`${
+      className={`${
         styles.paddingX
       } w-full flex items-center py-5 fixed top-0 z-20 ${
         scrolled ? "bg-primary" : "bg-transparent"
-      }`}>
+      }`}
+    >
       <div
         className="w-full flex justify-between
         items center max-w-7xl
@@ -49,10 +47,14 @@ useEffect(() => {
             //  window will bring you to top of page, test this
           }}
         >
-          <img className="w-10 h-9 rounded-full " 
-          src={mylogo} alt="mylogo" />
-          <p className="text-white text-[18px]
-           font-bold cursor-pointer flex">
+          <div className="img-container">
+            <img className="w-16 h-16 rounded-full" src={mylogo} alt="mylogo" />
+          </div>
+
+          <p
+            className="text-white text-[18px]
+           font-bold cursor-pointer flex"
+          >
             Robert Anderson &nbsp;
             <span className="sm:block hidden ">| JS/C# Mastery</span>
           </p>
@@ -102,7 +104,7 @@ useEffect(() => {
                   }  font-poppins font-medium cursor-pointer text-[16px]`}
                   onClick={() => {
                     setToggle(!toggle);
-                    //settoggle because you want the div to close when you click it 
+                    //settoggle because you want the div to close when you click it
                     setActive(nav.title);
                   }}
                 >

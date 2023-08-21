@@ -1,10 +1,10 @@
-import React, { Suspense, useEffect, useState } from 'react';
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls, Preload, useGLTF } from '@react-three/drei';
-import CanvasLoader from '../Loader';
+import React, { Suspense, useEffect, useState } from "react";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF('./desktop_pc/scene.gltf');
+  const computer = useGLTF("./desktop_pc/scene.gltf");
   // Guide to download 3D model from Sketchfab
   // 1) Download the model and use the folder name as reference
   // 2) Import the scene.gltf file as you would any other file
@@ -37,7 +37,7 @@ const ComputersCanvas = () => {
 
   useEffect(() => {
     // Check if the user is on a mobile device using a media query
-    const mediaQuery = window.matchMedia('(max-width: 500px)');
+    const mediaQuery = window.matchMedia("(max-width: 500px)");
 
     // Update the isMobile state with the initial media query match status
     setIsMobile(mediaQuery.matches);
@@ -48,11 +48,11 @@ const ComputersCanvas = () => {
     };
 
     // Add an event listener to the media query to detect changes
-    mediaQuery.addEventListener('change', handleMediaQueryChange);
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
 
     // Clean up the event listener when the component unmounts
     return () => {
-      mediaQuery.removeEventListener('change', handleMediaQueryChange);
+      mediaQuery.removeEventListener("change", handleMediaQueryChange);
     };
   }, []);
 
