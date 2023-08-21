@@ -100,7 +100,7 @@ const ProjectCard = ({
                     </span>
 
                     {/* For the arrow ← */}
-                    <span className="absolute left-0 top-1 mt-[13px] ml-[-49px] mt-1 sm:left-0 sm:mt-5 text-2xl md:ml-[-17px] md:mt-[19px]">
+                    <span className="absolute left-0 top-1 mt-[13px] ml-[-49px] mt-1 sm:left-0 sm:mt-5 text-2xl md:ml-[-13px] md:mt-[19px]">
                       ←
                     </span>
                   </div>
