@@ -93,9 +93,16 @@ const ProjectCard = ({
                   animate={shakeAnimation.animate}
                   transition={shakeAnimation.transition}
                 >
-                  <div className="flex flex-col items-center text-sm text-black cursor-pointer">
-                    <span className="px-4 py-3 -mx-5 -my-3">Click</span>
-                    <span className="mt-1">←</span>
+                  <div className="relative flex flex-col items-center text-xs sm:text-sm md:text-md text-black cursor-pointer">
+                    {/* For "Click" text */}
+                    <span className="absolute left-0 top-1 mt-[17px] ml-[-31px] px-2 py-1 sm:left-0 sm:mt-5 md:ml-[4px] md:mt-[20px]">
+                      Click
+                    </span>
+
+                    {/* For the arrow ← */}
+                    <span className="absolute left-0 top-1 mt-[13px] ml-[-49px] mt-1 sm:left-0 sm:mt-5 text-2xl md:ml-[-17px] md:mt-[19px]">
+                      ←
+                    </span>
                   </div>
                 </motion.div>
               </>
