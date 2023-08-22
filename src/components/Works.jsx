@@ -76,8 +76,7 @@ const ProjectCard = ({
 
             {name === "Classic Noire" && (
               <>
-                <div></div>
-
+                <div onClick={playAudio}>hey</div>
                 <motion.div
                   onClick={playAudio}
                   style={{
